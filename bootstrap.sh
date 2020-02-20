@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-[[ command -v git ]] || sudo apt install -y git
+[[ "$(command -v git)" ]] || sudo apt install -y git
 
 # Create repo dir and clone config repo
 repoDir="${HOME}/repos"
